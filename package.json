@@ -1,0 +1,23 @@
+{
+    "name": "yhl-cli",
+    "author": "yhl10",
+    "version": "1.0.0",
+    "description": "用这个cli管理一个空的项目模板，新的项目不必复制粘贴老项目再删除了",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bin": {
+        "yhl": "./bin/yhl.js"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^4.1.1",
+        "commander": "^7.2.0",
+        "download-git-repo": "^3.0.2",
+        "fs-extra": "^10.0.0",
+        "inquirer": "^8.1.1",
+        "ora": "^5.4.1",
+        "shelljs": "^0.8.4"
+    }
+}
